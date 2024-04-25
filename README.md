@@ -55,11 +55,11 @@ Las rutas del classpath son ficticias, sustituir por la ruta donde se encuentre 
 
 En intellij: Descargar el paquete, descomprimir, crear nuevo proyecto java, copiar la carpeta src dentro del nuevo proyecto, copiar apiKey.txt en la carpeta raíz de proyecto
 
-# Nota:
+## Nota:
 
 El archivo apiKey.txt deberá crearse o moverse dentro de la carpeta classes después de la compilación, dentro deberá contener la clave de la api del usuario y puedan realizarse las consultas. Puede optar por asignarla directamente dentro del código y eliminando la funcionalidad de lectura de archivo.
 
-# Para probar en Itellij
+## Para probar en Itellij
 
 * Descargar y descomprimir archivo zip.
 * Crear nuevo proyecto Java.
