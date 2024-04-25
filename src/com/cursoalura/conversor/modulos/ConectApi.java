@@ -21,8 +21,4 @@ public class ConectApi {
         return response.body();
     }
 
-    public void cerrarCliente(){
-        cliente.close();
-    }
-
 }
