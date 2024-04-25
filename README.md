@@ -37,6 +37,8 @@ Ver enlace: https://mvnrepository.com/artifact/com.google.code.gson/gson
 
 Api del sitio: https://v6.exchangerate-api.com
 
+Se recomienda utilizar java openJDK-21. 
+
 ## Compilación y ejecución
 
 Compilar desde carpeta que contiene a /src
@@ -56,6 +58,25 @@ En intellij: Descargar el paquete, descomprimir, crear nuevo proyecto java, copi
 # Nota:
 
 El archivo apiKey.txt deberá crearse o moverse dentro de la carpeta classes después de la compilación, dentro deberá contener la clave de la api del usuario y puedan realizarse las consultas. Puede optar por asignarla directamente dentro del código y eliminando la funcionalidad de lectura de archivo.
+
+# Para probar en Itellij
+
+* Descargar y descomprimir archivo zip.
+* Crear nuevo proyecto Java.
+
+![Creando proyecto en Itelij](https://github.com/Gercodex/conversor-de-moneda-challenge-one/assets/157858339/02d8b39a-4073-4ea0-bb5e-ac4f0664c1f7)
+
+* Copiar la carpeta src ó desde /com/... a src del nuevo proyecto.
+* Copiar o crear archivo apiKey en la raíz del proyecto y guardar la apiKey en el archivo apiKey.txt. Ver enlace para apikey: https://v6.exchangerate-api.com.
+  
+![image](https://github.com/Gercodex/conversor-de-moneda-challenge-one/assets/157858339/9ddd6661-f410-432d-85d4-5e35be1135b8)
+
+* Descargar gson-2.10.1.jar y agregar la ruta del paquete.
+
+![image](https://github.com/Gercodex/conversor-de-moneda-challenge-one/assets/157858339/3c98f916-5f8b-4d16-be40-62cacc9db98e)
+
+* Click en Run o presionar Crtl+Shift+F10 en la clase Principal.
+
 
 ## Sobre el autor
 
