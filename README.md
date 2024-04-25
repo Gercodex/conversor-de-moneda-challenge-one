@@ -7,6 +7,7 @@ Convertidor de monedas para el challenge ONE y Alura Latam.
 
 ## Funcionalidades
 
+* Se conecta a la api de exchangerate para obtener los datos de conversión de monedas.
 * Menú de opciones para conversión de moneda.
 * Lee la entrada del usuario para elegir opciones del menú.
 * Lee la entrada del usuario para convertir la moneda que elija del menú.
