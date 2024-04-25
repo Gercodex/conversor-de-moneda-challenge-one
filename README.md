@@ -39,9 +39,13 @@ Api del sitio: https://v6.exchangerate-api.com
 
 ## Compilación y ejecución
 
+Compilar desde carpeta que contiene a /src
+
 $ javac -d classes src/com/cursoalura/conversor/modulos/ *.java src/com/cursoalura/conversor/principal/ *.java -classpath /home/usuario.../proyecto/gson-2.10.1.jar
 
 $ mv apiKey.txt classes
+
+Ejecutar dentro de la carpeta /classes
 
 $ java -classpath "/home/usuario.../proyecto/gson-2.10.1.jar": com.cursoalura.conversor.principal.Principal
 
