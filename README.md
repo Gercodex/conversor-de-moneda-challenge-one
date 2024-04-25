@@ -15,7 +15,7 @@ Convertidor de monedas para el challenge ONE y Alura Latam.
 
 ## Ejemplo de funcionalidad
 
-https://github.com/Gercodex/conversor-de-moneda-challenge-one/assets/157858339/1a669586-05d9-423f-834d-93d53c37c5be
+https://github.com/Gercodex/conversor-de-moneda-challenge-one/assets/157858339/64702b94-155b-421a-99e5-892ba97356a6
 
 ## Resultado de conversion
 
@@ -32,7 +32,9 @@ Sin feedback hasta el momento.
 ## Dependencias
 
 gson-2.10.1
-Ver enlace https://mvnrepository.com/artifact/com.google.code.gson/gson
+Ver enlace: https://mvnrepository.com/artifact/com.google.code.gson/gson
+
+Api del sitio: https://v6.exchangerate-api.com
 
 ## Compilación y ejecución
 
@@ -50,7 +52,7 @@ El archivo apiKey.txt deberá crearse o moverse dentro de la carpeta classes des
 
 ## Sobre el autor
 
-
+https://www.linkedin.com/in/gerardo-gutierrez-rodriguez-37629a196/
 
 
 
