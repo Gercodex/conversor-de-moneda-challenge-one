@@ -113,8 +113,7 @@ public class Principal {
             System.out.println("Error de conexion.");
         }
 
-        scanner.close();
-        conectApi.cerrarCliente();
+        scanner.close();        
         System.out.println("Hasta pronto! Programa finalizado.");
 
     }
