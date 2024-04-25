@@ -37,7 +37,7 @@ Ver enlace: https://mvnrepository.com/artifact/com.google.code.gson/gson
 
 Api del sitio: https://v6.exchangerate-api.com
 
-Se recomienda utilizar java openJDK-21. 
+Testeado en openJDK-17 y openJDK-21
 
 ## Compilación y ejecución
 
