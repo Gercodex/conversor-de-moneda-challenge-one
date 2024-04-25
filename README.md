@@ -38,11 +38,13 @@ Api del sitio: https://v6.exchangerate-api.com
 
 ## Compilación y ejecución
 
-$ javac -d classes src/com/cursoalura/conversor/modulos/*.java src/com/cursoalura/conversor/principal/*.java -classpath /home/ger/IdeaProjects/gson-2.10.1.jar
+$ javac -d classes src/com/cursoalura/conversor/modulos/*.java src/com/cursoalura/conversor/principal/*.java -classpath /home/usuario.../proyecto/gson-2.10.1.jar
 
 $ mv apiKey.txt classes
 
-$ java -classpath "/home/ger/IdeaProjects/gson-2.10.1.jar": com.cursoalura.conversor.principal.Principal
+$ java -classpath "/home/usuario.../proyecto/gson-2.10.1.jar": com.cursoalura.conversor.principal.Principal
+
+Las rutas del classpath son ficticias, sustituir por la ruta donde se encuentre el paquete gson.
 
 En intellij: Descargar el paquete, descomprimir, crear nuevo proyecto java, copiar la carpeta src dentro del nuevo proyecto, copiar apiKey.txt en la carpeta raíz de proyecto
 
