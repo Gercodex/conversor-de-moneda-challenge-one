@@ -28,7 +28,8 @@ Completado.
 
 ## Errores
 
-Sin feedback hasta el momento.
+Incompatibilidades por determinados métodos entre las versiones 21 y 17 arreglada.
+Se eliminaron las causas de la incompatibilidad por lo que el código actual compila y ejecuta correctamente en ambas versiones.
 
 ## Dependencias
 
@@ -37,7 +38,8 @@ Ver enlace: https://mvnrepository.com/artifact/com.google.code.gson/gson
 
 Api del sitio: https://v6.exchangerate-api.com
 
-versión recomendada openJDK-21
+Versiones probadas desde consola e Intellij: openjdk-17 ; openjdk-21
+(Verificar que las versiones de 'javac' y 'java' (compilador y jre) coincidan en caso de tener dos o más versiones de java instaladas si se desea compilar desde la consola)
 
 ## Compilación y ejecución
 
@@ -54,6 +56,10 @@ $ java -classpath "/home/usuario.../proyecto/gson-2.10.1.jar": com.cursoalura.co
 Las rutas del classpath son ficticias, sustituir por la ruta donde se encuentre el paquete gson.
 
 En intellij: Descargar el paquete, descomprimir, crear nuevo proyecto java, copiar la carpeta src dentro del nuevo proyecto, copiar apiKey.txt en la carpeta raíz de proyecto
+
+## Compilación y ejecución ejemplo:
+
+https://github.com/Gercodex/conversor-de-moneda-challenge-one/assets/157858339/0271aa69-ce72-4ab9-8497-e8c1f588cc89
 
 ## Nota:
 
@@ -82,6 +88,7 @@ El archivo apiKey.txt deberá crearse o moverse dentro de la carpeta classes des
 
 https://www.linkedin.com/in/gerardo-gutierrez-rodriguez-37629a196/
 
+## Agradecimientos:
 
-
+Agradezco a Jorge compañero del programa ONE por haber encontrado incompatibilidades entre las versiones 21 y 17 gracias a sus observaciones lo cual me motivó a corregir el problema y haber detallado este README, Gracias Jorge! 👍
   
